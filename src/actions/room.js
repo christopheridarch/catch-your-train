@@ -3,7 +3,7 @@ const formatter = require('../formatter')
 const subject = ['Maths', 'History', 'Geography', 'Fench', 'English']
 
 export default async function showLanguage(res) {
-  console.log('CLASS')
+  console.log('ROOM')
 
   const replies = []
   const quickReplies = []
