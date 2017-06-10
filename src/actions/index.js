@@ -2,7 +2,7 @@ const actions = {
   'greetings': require('./greetings'),
   'class: require('./class'),
   'subject': require('./subject'),
-  'maths-choice': require('./maths-choice'),
+  'chapters': require('./chapters'),
 }
 
 export default async function handleAction(res, payload) {
