@@ -6,6 +6,6 @@ export default async function showLanguage(res) {
 
   const replies = []
   replies.push(formatter.formatMsg(res.reply()))
-  replies.push(formatter.formatVideo('https://www.youtube.com/watch?v=7-ryWoZ1UoI'))
+  replies.push(formatter.formatVideo('https://raw.githubusercontent.com/christopheridarch/catch-your-train/master/assets/tables.mp4'))
   return replies
 }
