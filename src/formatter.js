@@ -10,6 +10,11 @@ exports.formatImg = link => ({
   content: link,
 })
 
+exports.formatVideo = link => ({
+  type: 'video',
+  content: link,
+})
+
 exports.formatQuickReplies = (quickRp, sentence) => {
   const elements = []
   quickRp.forEach((elem) => {

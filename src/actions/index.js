@@ -3,6 +3,7 @@ const actions = {
   'room': require('./room'),
   'subject': require('./subject'),
   'chapters': require('./chapters'),
+  'support': require('./support'),
   'laught': require('./laught'),
 }
 
