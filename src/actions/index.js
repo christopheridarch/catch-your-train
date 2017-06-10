@@ -1,6 +1,6 @@
 const actions = {
   'greetings': require('./greetings'),
-  'rooms': require('./rooms'),
+  'room': require('./room'),
   'subject': require('./subject'),
   'chapters': require('./chapters'),
 }
