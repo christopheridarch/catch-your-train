@@ -3,6 +3,7 @@ const actions = {
   'room': require('./room'),
   'subject': require('./subject'),
   'chapters': require('./chapters'),
+  'laught': require('./laught'),
 }
 
 export default async function handleAction(res, payload) {
