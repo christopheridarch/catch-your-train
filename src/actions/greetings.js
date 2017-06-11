@@ -1,6 +1,6 @@
 const agent = require('superagent-promise')(require('superagent'), Promise)
 const formatter = require('../formatter')
-const cl = ['CP', 'CE1', 'CE2', 'CM1', 'CM2']
+const cl = ['6e', '5e', '4e', '3e']
 
 export default async function showLanguage(res) {
   console.log('GREETINGS')
