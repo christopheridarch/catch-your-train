@@ -1,6 +1,6 @@
 const agent = require('superagent-promise')(require('superagent'), Promise)
 const formatter = require('../formatter')
-const chapters = ['Multiplication Table', 'Division', 'Geometry']
+const chapters = ['Fractions', 'Triangles', 'Symétrie']
 
 export default async function showLanguage(res) {
   console.log('SUBJECT')
